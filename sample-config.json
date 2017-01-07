@@ -1,0 +1,35 @@
+{
+    "bridge": {
+        "name": "homebridge-multisensor",
+        "username": "CC:22:3D:E3:CE:34",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+    "description": "Homebridge Plugin for simple http sensors with multiple values",
+
+    "accessories": [
+      {
+          "accessory": "HttpMultisensor",
+          "name": "Temp 1",
+          "type": "CurrentTemperature",
+          "url": "http://localhost/wc/homebridge/phpsensor.php?sensor=temp",
+          "manufacturer" : "SensorManu 1",
+          "model": "SensorModel 1",
+          "serial": "SensorSerial 1",
+          "debug": false
+      },
+      {
+          "accessory": "HttpMultisensor",
+          "name": "Hum 1",
+          "type": "CurrentRelativeHumidity",
+          "url": "http://localhost/wc/homebridge/phpsensor.php?sensor=hum",
+          "manufacturer" : "SensorManu 2",
+          "model": "SensorModel 2",
+          "serial": "SensorSerial 2",
+          "debug": false
+      }
+    ],
+
+    "platforms": [ ]
+}

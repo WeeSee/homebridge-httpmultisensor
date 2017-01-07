@@ -1,0 +1,25 @@
+{
+  "name": "homebridge-httpmultisensor",
+  "version": "1.0.0",
+  "description": "homebridge plugin for http temperture and humidity sensors",
+  "license": "Apache-2.0",
+  "keywords": [
+    "homebridge-plugin",
+    "temperature",
+    "humidiy"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "WeeSee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/weesee/homebridge-httpmultisensor.git"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
