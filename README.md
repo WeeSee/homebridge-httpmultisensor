@@ -1,18 +1,18 @@
-# homebridge-http-temperature-multisensor
+# homebridge-httpmultisensor
 
 Supports http sensor devices on HomeBridge Platform.
+See https://github.com/nfarina/homebridge for details on HomeBridge.
 
-This plugin provides a homebridge accessory.
+This plugin provides a HomeBridge accessory.
 
 # Installation
 
-1. Install homebridge using: npm install -g homebridge
-2. Install this plugin using: npm install -g homebridge-httpmultisensor
-3. Update your configuration file. See sample-config.json in this repository for a sample. 
+1. Install homebridge using: ```npm install -g homebridge```
+2. Install this plugin using: ```npm install -g homebridge-httpmultisensor```
+3. Update your configuration file. See ```sample-config.json``` in this repository for a sample.
+4. Start HomeBridge: ```homebridge```
 
 # Configuration
-
-This plugin provides
 
 Accessory configuration sample (part of ~/.homebridge/config.json):
 
@@ -42,12 +42,15 @@ The sensor url should return a json string looking like this
 ```
 Please see ```sample-config.json``` for configuration options.
 
+
+
+
 This plugin acts as an interface between a web endpoint and homebridge only.
 The sensor is read either directly or via PHP-script if you better like PHP.
 
-# Licence
+# License
 
-Apache-2.0 License, see Licence file.
+Apache-2.0 License, see License file.
 
 # Author
 
