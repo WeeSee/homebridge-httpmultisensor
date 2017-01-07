@@ -2,6 +2,9 @@
   "name": "homebridge-httpmultisensor",
   "version": "1.0.0",
   "description": "homebridge plugin for http temperture and humidity sensors",
+  "author": {
+    "name": "WeeSee"
+  }
   "license": "Apache-2.0",
   "keywords": [
     "homebridge-plugin",
