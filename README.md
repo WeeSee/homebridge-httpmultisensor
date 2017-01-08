@@ -10,7 +10,8 @@ This plugin provides a HomeBridge accessory.
 1. Install homebridge using: ```npm install -g homebridge```
 2. Install this plugin using: ```npm install -g homebridge-httpmultisensor```
 3. Update your configuration file. See ```sample-config.json``` in this repository for a sample.
-4. Start HomeBridge: ```homebridge```
+4. Make the file ```php-sensor/phpsensor.php``` accessible from your web server
+5. Start HomeBridge: ```homebridge```
 
 # Configuration
 
